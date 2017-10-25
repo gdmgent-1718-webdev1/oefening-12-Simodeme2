@@ -5,8 +5,9 @@ $cities = array_map('strtoupper', $cities);
 sort($cities);
 
 
-echo '<ol>';
+echo '<ol></o>';
 
 foreach ($cities as $city) {
     echo "<li><strong>$city</strong></li>";
 }
+
